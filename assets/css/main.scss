@@ -1,0 +1,95 @@
+/**
+ * sass file for the entire project since this has fairly few pages with minimal design
+ *
+ * @author Vanessa Richie Alia-Trapero <vrat.engr@gmail.com>
+ */
+
+#message {
+    text-align: center;
+    padding: 5px;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+#main {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    .section {
+        padding: 50px;
+        width: 50%;
+        border: 1px solid gray;
+        .row {
+            padding-top: 10px;
+            input {
+                padding: 10px;
+                width: 100%;
+            }
+            #view-password {
+                position: relative;
+                width: 20px;
+                height: 17px;
+                top: -28px;
+                left: calc(100% - 30px);
+                cursor: pointer;
+            }
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+                width: 100%;
+                font-size: 14px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+                span {
+                    margin-left: 5px;
+                }
+            }
+            .btn {
+                cursor: pointer;
+            }
+        }
+        #register-oauth {
+            display: flex;
+            justify-content: space-evenly;
+            .row button {
+                width: 70px;
+                height: 70px;
+                border-radius: 100%;
+                border: none;
+                justify-content: center;
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+        hr {
+            margin: 50px 0px 10px;
+        }
+        .or {
+           text-align: center;
+           padding-bottom: 20px;
+        }
+    }
+}
+#welcome {
+    font-size: 20px;
+    text-align: center;
+    .name {
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    .info {
+        text-align: left;
+    }
+    button {
+        padding: 10px;
+        width: 200px;
+    }
+}

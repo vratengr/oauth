@@ -1,0 +1,96 @@
+/**
+ * sass file for the entire project since this has fairly few pages with minimal design
+ *
+ * @author Vanessa Richie Alia-Trapero <vrat.engr@gmail.com>
+ */
+#message {
+  text-align: center;
+  padding: 5px;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#main {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#main .section {
+  padding: 50px;
+  width: 50%;
+  border: 1px solid gray;
+}
+#main .section .row {
+  padding-top: 10px;
+}
+#main .section .row input {
+  padding: 10px;
+  width: 100%;
+}
+#main .section .row #view-password {
+  position: relative;
+  width: 20px;
+  height: 17px;
+  top: -28px;
+  left: calc(100% - 30px);
+  cursor: pointer;
+}
+#main .section .row button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+#main .section .row button img {
+  width: 30px;
+  height: 30px;
+}
+#main .section .row button span {
+  margin-left: 5px;
+}
+#main .section .row .btn {
+  cursor: pointer;
+}
+#main .section #register-oauth {
+  display: flex;
+  justify-content: space-evenly;
+}
+#main .section #register-oauth .row button {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: none;
+  justify-content: center;
+}
+#main .section #register-oauth .row button img {
+  width: 50px;
+  height: 50px;
+}
+#main .section hr {
+  margin: 50px 0px 10px;
+}
+#main .section .or {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#welcome {
+  font-size: 20px;
+  text-align: center;
+}
+#welcome .name {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+#welcome .info {
+  text-align: left;
+}
+#welcome button {
+  padding: 10px;
+  width: 200px;
+}/*# sourceMappingURL=main.css.map */
